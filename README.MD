@@ -1,0 +1,2 @@
+Crear  el servicio que va a agrega a la cola la tarea que le asigne
+Crear la libreria que va a utilizar Kue, y ademas va a recibir por parametros una funcion que se va a ejecutar una ves se cumple la tarea, esto va a ser para implementar el web socket de manera que pueda avisar al cliente que hubo un cambio de estado
