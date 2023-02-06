@@ -3,8 +3,8 @@ var router = express.Router();
 const { DocumentsService } = require("../service/documents.service");
 const service = new DocumentsService();
 /* GET home page. */
-router.get("/task", function (req, res, next) {
-  const response = service.create();
+router.get("/task/:id", function (req, res, next) {
+  const response = service.create(req.params);
   res.json({ createdAt: response });
 });
 
